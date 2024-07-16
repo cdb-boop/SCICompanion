@@ -525,7 +525,7 @@ vector<species_property> CompileContext::GetSpeciesProperties(const string &spec
 				const vector<CSCOObjectProperty> &properties = pClass->GetProperties();
 				for (auto &theProp : properties)
 				{
-					species_property specProp = { theProp.GetSelector(), theProp.GetValue(), DataTypeAny, false };
+					species_property specProp = { theProp.GetSelector(), theProp.GetValue(), DataTypeAny, theProp.NeedsReloc() };
 					propertiesRet.push_back(specProp);
 				}
 				break;

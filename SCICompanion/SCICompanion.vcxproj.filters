@@ -36,7 +36,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
     <Text Include="Files\Licenses\giflib-AUTHORS.txt" />
     <Text Include="Files\Licenses\r8brain-License.txt" />
     <Text Include="Files\License.txt" />
@@ -1112,9 +1111,6 @@
     <None Include="Docs\source\StudioCompiler\codeblock.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
-    <None Include="Docs\source\Compiler\codeblock.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
     <None Include="Docs\source\Classes\Collection.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
@@ -1164,9 +1160,6 @@
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Classes\Control.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Classes\ControlItem.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Scripts\Controls.rst">
@@ -1383,9 +1376,6 @@
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Kernels\DisposeWindow.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Compiler\do.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\StudioCompiler\do.rst">
@@ -1880,12 +1870,6 @@
     <None Include="Docs\source\Classes\IconBar.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
-    <None Include="Docs\source\Classes\IconI.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Scripts\IconI.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
     <None Include="Docs\source\Classes\IconItem.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
@@ -1926,9 +1910,6 @@
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Classes\InsetWindow.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Classes\Inv.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\intro.rst">
@@ -1992,18 +1973,6 @@
       <Filter>Resource Files\SCI 1 template</Filter>
     </None>
     <None Include="Docs\source\Procedures\IsOnScreen.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Classes\InvI.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Scripts\InvI.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Classes\InvItem.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Scripts\InvItem.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Kernels\IsItSkip.rst">
@@ -2543,9 +2512,6 @@
     <None Include="Docs\source\Procedures\SetUpEgo.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
-    <None Include="Docs\source\Scripts\SettingsPane.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
     <None Include="Docs\source\Kernels\SetSynonyms.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
@@ -2574,9 +2540,6 @@
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\StudioCompiler\sendselfsuper.rst">
-      <Filter>Resource Files\Help sources</Filter>
-    </None>
-    <None Include="Docs\source\Compiler\sendselfsuper.rst">
       <Filter>Resource Files\Help sources</Filter>
     </None>
     <None Include="Docs\source\Compiler\selfsuper.rst">

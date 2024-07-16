@@ -286,7 +286,6 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <Text Include="Files\TemplateGame\SCI0\game.txt" />
     <Text Include="Files\TemplateGame\SCI1.1.txt" />
     <Text Include="Files\License.txt" />
-    <Text Include="ReadMe.txt" />
     <Text Include="Tools\DOSBox\DOSBox 0.74 Manual.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -518,7 +517,6 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Classes\Collection.rst" />
     <None Include="Docs\source\Classes\Control.rst" />
     <None Include="Docs\source\Classes\ControlIcon.rst" />
-    <None Include="Docs\source\Classes\ControlItem.rst" />
     <None Include="Docs\source\Classes\Controls.rst" />
     <None Include="Docs\source\Classes\Conversation.rst" />
     <None Include="Docs\source\Classes\Cue.rst" />
@@ -558,15 +556,11 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Classes\GradualCycler.rst" />
     <None Include="Docs\source\Classes\GradualLooper.rst" />
     <None Include="Docs\source\Classes\IconBar.rst" />
-    <None Include="Docs\source\Classes\IconI.rst" />
     <None Include="Docs\source\Classes\IconItem.rst" />
     <None Include="Docs\source\Classes\Inset.rst" />
     <None Include="Docs\source\Classes\InsetWindow.rst" />
-    <None Include="Docs\source\Classes\Inv.rst" />
     <None Include="Docs\source\Classes\InventoryBase.rst" />
     <None Include="Docs\source\Classes\InventoryItem.rst" />
-    <None Include="Docs\source\Classes\InvI.rst" />
-    <None Include="Docs\source\Classes\InvItem.rst" />
     <None Include="Docs\source\Classes\Jump.rst" />
     <None Include="Docs\source\Classes\JumpTo.rst" />
     <None Include="Docs\source\Classes\List.rst" />
@@ -635,14 +629,12 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Compiler\break.rst" />
     <None Include="Docs\source\Compiler\classes.rst" />
     <None Include="Docs\source\Compiler\classheader.rst" />
-    <None Include="Docs\source\Compiler\codeblock.rst" />
     <None Include="Docs\source\Compiler\comment.rst" />
     <None Include="Docs\source\Compiler\cond.rst" />
     <None Include="Docs\source\Compiler\conditionalexpressions.rst" />
     <None Include="Docs\source\Compiler\continue.rst" />
     <None Include="Docs\source\Compiler\define.rst" />
     <None Include="Docs\source\Compiler\differences.rst" />
-    <None Include="Docs\source\Compiler\do.rst" />
     <None Include="Docs\source\Compiler\for.rst" />
     <None Include="Docs\source\Compiler\if.rst" />
     <None Include="Docs\source\Compiler\include.rst" />
@@ -658,7 +650,6 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Compiler\saids.rst" />
     <None Include="Docs\source\Compiler\selectors.rst" />
     <None Include="Docs\source\Compiler\selfsuper.rst" />
-    <None Include="Docs\source\Compiler\sendselfsuper.rst" />
     <None Include="Docs\source\Compiler\strings.rst" />
     <None Include="Docs\source\Compiler\switch.rst" />
     <None Include="Docs\source\Compiler\switchto.rst" />
@@ -909,12 +900,9 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Scripts\GameEgo.rst" />
     <None Include="Docs\source\Scripts\Gauge.rst" />
     <None Include="Docs\source\Scripts\Grooper.rst" />
-    <None Include="Docs\source\Scripts\IconI.rst" />
     <None Include="Docs\source\Scripts\IconItem.rst" />
     <None Include="Docs\source\Scripts\Inset.rst" />
     <None Include="Docs\source\Scripts\InventoryItem.rst" />
-    <None Include="Docs\source\Scripts\InvI.rst" />
-    <None Include="Docs\source\Scripts\InvItem.rst" />
     <None Include="Docs\source\Scripts\Jump.rst" />
     <None Include="Docs\source\Scripts\Main.rst" />
     <None Include="Docs\source\Scripts\Messager.rst" />
@@ -941,7 +929,6 @@ xcopy /S /Y /I /D "$(ProjectDir)Tools" "$(OutDir)Tools"</Command>
     <None Include="Docs\source\Scripts\ScaleTo.rst" />
     <None Include="Docs\source\Scripts\ScrollableInventory.rst" />
     <None Include="Docs\source\Scripts\ScrollInsetWindow.rst" />
-    <None Include="Docs\source\Scripts\SettingsPane.rst" />
     <None Include="Docs\source\Scripts\Sight.rst" />
     <None Include="Docs\source\Scripts\Slider.rst" />
     <None Include="Docs\source\Scripts\SmoothLooper.rst" />

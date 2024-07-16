@@ -1118,9 +1118,13 @@ void GenerateSCOObjects(CompileContext &context, const Script &script)
 		for (species_property &speciesProp : speciesProps)
 		{
 			WORD wValue = speciesProp.wValue;
-			// name is tracked by default (since we populate with a string by default)
-			// Other species props are not tracked by default.
-			bool fTrackRelocation = (iIndex == nameIndex);
+
+			// name is tracked by default (since we populate with a string by default).
+			// other properties are tracked by default if the superclass property is tracked.
+			// this only produces meaningful relocations when the object and super are in the
+			// same script. we could filter if they are in different scripts, but sierra didn't.
+			bool fTrackRelocation = (iIndex == nameIndex) || speciesProp.fTrackRelocation;
+
 			property_vector::const_iterator overriddenIt = find_if(newProps.begin(), newProps.end(), bind2nd(MatchSelector(), speciesProp.wSelector));
 			if (overriddenIt != newProps.end())
 			{
