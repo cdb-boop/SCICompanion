@@ -248,7 +248,7 @@ void AudioComponentFromWaveFile(sci::istream &stream, AudioComponent &audio, Aud
 		audio.DigitalSamplePCM.assign(samplesWritten * convertedSampleSize, 0);
 		for (int i = 0; i < samplesWritten; i++)
 		{
-			double f = fpData[i];
+			double f = results[i];
 			uint16_t value;
 			if (convertedSampleSize == 2)
 			{
