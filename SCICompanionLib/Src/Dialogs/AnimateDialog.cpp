@@ -134,7 +134,7 @@ void CAnimateDialog::OnSize(UINT nType, int cx, int cy)
 			rectAnimateScreen.bottom = rectAnimateScreen.top + rectAnimateScreen.Height() + dy;
 			m_wndAnimate.MoveWindow(&rectAnimateScreen, TRUE);
 
-			int rgid[] = { IDOK, IDC_BUTTONPLAY };
+			int rgid[] = { IDOK, IDC_BUTTONBG, IDC_BUTTONPLAY };
 			for (int i = 0; i < ARRAYSIZE(rgid); i++)
 			{
 				CWnd *pOk = GetDlgItem(rgid[i]);
