@@ -190,9 +190,9 @@ void MessageWriteTo_3411(const TextComponent &messageComponent, sci::ostream &by
 		byteStream << entry.Talker;
 		byteStream << textOffset;
 		//Come back to check these later.
-		byteStream << (byte)0;
-		byteStream << (byte)0;
-		byteStream << (byte)0;
+		byteStream << (std::byte)0;
+		byteStream << (std::byte)0;
+		byteStream << (std::byte)0;
 		textOffset += (uint16_t)(entry.Text.length() + 1);
 	}
 

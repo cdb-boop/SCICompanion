@@ -132,7 +132,7 @@ typedef struct
 
 typedef std::vector<species_property> property_vector;
 
-struct MatchSelector : public std::binary_function<species_property, WORD, bool>
+struct MatchSelector
 {
 	bool operator()(const species_property &prop, WORD wSelector) const
 	{
@@ -1125,7 +1125,7 @@ void GenerateSCOObjects(CompileContext &context, const Script &script)
 			// same script. we could filter if they are in different scripts, but sierra didn't.
 			bool fTrackRelocation = (iIndex == nameIndex) || speciesProp.fTrackRelocation;
 
-			property_vector::const_iterator overriddenIt = find_if(newProps.begin(), newProps.end(), bind2nd(MatchSelector(), speciesProp.wSelector));
+			property_vector::const_iterator overriddenIt = find_if(newProps.begin(), newProps.end(), std::bind(MatchSelector(), std::placeholders::_1, speciesProp.wSelector));
 			if (overriddenIt != newProps.end())
 			{
 				wValue = overriddenIt->wValue;
@@ -1139,7 +1139,7 @@ void GenerateSCOObjects(CompileContext &context, const Script &script)
 		for (species_property &newProp : newProps)
 		{
 			// Is this a new property, not defined by the superclass?
-			property_vector::const_iterator speciesIt = find_if(speciesProps.begin(), speciesProps.end(), bind2nd(MatchSelector(), newProp.wSelector));
+			property_vector::const_iterator speciesIt = find_if(speciesProps.begin(), speciesProps.end(), std::bind(MatchSelector(), std::placeholders::_1, newProp.wSelector));
 			if (speciesIt == speciesProps.end())
 			{
 				// Must be - we didn't find it in the species props.
